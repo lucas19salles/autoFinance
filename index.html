@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Finance</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="./">Auto Finance</a>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="formulario-financeiro">
+        <div class="informacao-auto">
+          <h1>Simule o seu <span>financiamento</span>.</h1>
+          <p>Escolha as melhores condições para o financiamento do seu veículo.</p>
+          <img src="./img/car.png" alt="lamboguinner">
+        </div>
+
+        <div class="formulario">
+          <form action="">
+            <div class="informacao-form">
+              <h2>Preencha os campos e simule o seu financiamento.</h2>
+              <div class="dados-auto">
+                <label for="valor">
+                  Valor
+                </label>
+                <input type="text" id="valor" name="valor" placeholder="R$0000,00">
+              </div>
+
+              <div class="dados-auto">
+                <select name="car" id="car">
+                  <option value="">Bradesco</option>
+                  <option value="">Santander</option>
+                  <option value="">Banco do Brasil</option>
+                  <option value="">Itaú</option>
+                  <option value="">Caixa</option>
+                  <option value="">NuBank</option>
+                  <option value="">Banco Inter </option>
+                  <option value="">C6 Bank</option>
+                </select>
+              </div>
+
+              <div class="dados-auto">
+                <select name="money" id="money">
+                  <option value="">6 meses</option>
+                  <option value="">12 meses</option>
+                  <option value="">18 meses</option>
+                  <option value="">24 meses</option>
+                  <option value="">36 meses</option>
+                  <option value="">48 meses</option>
+                  <option value="">60 meses</option>
+                  <option value="">72 meses</option>
+                </select>
+              </div>
+
+              <button class="botao">Simular financiamento</button>
+            </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="financeiro-simulacao">
+      <div class="situacao-financeira">
+        <a href="./">Auto Finance</a>
+        <h3>Valor das suas parcelas:</h3>
+        <span>R$ 1.302,23</span>
+        <h3>Valor final a pagar:</h3>
+        <span>R$ 62.507,04</span>
+        <h3 class="titulo"><span class="asterico">*</span> financiamento em 48 meses</h3>
+
+        <button class="simulador">Voltar ao simulador</button>
+      </div>
+
+      <div class="imagem-financeira">
+        <img src="./img/banner.png" alt="mulher dirigindo">
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
